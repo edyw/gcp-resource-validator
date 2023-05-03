@@ -1,0 +1,118 @@
+// For reference: base64 decoded from storage_location_us_msg.message.data
+{
+    "asset": {
+        "ancestors": [
+            "projects/99988877766",
+            "organizations/999888877766"
+        ],
+        "assetType": "storage.googleapis.com/Bucket",
+        "name": "//storage.googleapis.com/bucket-test-1",
+        "resource": {
+            "data": {
+                "acl": [],
+                "autoclass": {},
+                "billing": {},
+                "cors": [],
+                "defaultObjectAcl": [],
+                "encryption": {},
+                "etag": "CAM=",
+                "iamConfiguration": {
+                    "bucketPolicyOnly": {
+                        "enabled": false
+                    },
+                    "publicAccessPrevention": "enforced",
+                    "uniformBucketLevelAccess": {
+                        "enabled": false
+                    }
+                },
+                "id": "bucket-test-1",
+                "kind": "storage#bucket",
+                "labels": {},
+                "lifecycle": {
+                    "rule": []
+                },
+                "location": "US",
+                "locationType": "multi-region",
+                "logging": {},
+                "metageneration": 3,
+                "name": "bucket-test-1",
+                "owner": {},
+                "projectNumber": 99988877766,
+                "retentionPolicy": {
+                    "effectiveTime": "2023-03-29T14:04:24.768Z",
+                    "retentionPeriod": 31557600
+                },
+                "selfLink": "https://www.googleapis.com/storage/v1/b/bucket-test-1",
+                "storageClass": "STANDARD",
+                "timeCreated": "2023-03-29T13:12:35.580Z",
+                "updated": "2023-03-29T14:03:24.917Z",
+                "versioning": {},
+                "website": {}
+            },
+            "discoveryDocumentUri": "https://www.googleapis.com/discovery/v1/apis/storage/v1/rest",
+            "discoveryName": "Bucket",
+            "location": "us",
+            "parent": "//cloudresourcemanager.googleapis.com/projects/99988877766",
+            "version": "v1"
+        },
+        "updateTime": "2023-03-29T14:03:24.917Z"
+    },
+    "priorAsset": {
+        "ancestors": [
+            "projects/99988877766",
+            "organizations/99988877766"
+        ],
+        "assetType": "storage.googleapis.com/Bucket",
+        "name": "//storage.googleapis.com/bucket-test-1",
+        "resource": {
+            "data": {
+                "acl": [],
+                "autoclass": {},
+                "billing": {},
+                "cors": [],
+                "defaultObjectAcl": [],
+                "encryption": {},
+                "etag": "CAI=",
+                "iamConfiguration": {
+                    "bucketPolicyOnly": {
+                        "enabled": false
+                    },
+                    "publicAccessPrevention": "enforced",
+                    "uniformBucketLevelAccess": {
+                        "enabled": false
+                    }
+                },
+                "id": "bucket-test-1",
+                "kind": "storage#bucket",
+                "labels": {},
+                "lifecycle": {
+                    "rule": []
+                },
+                "location": "US",
+                "locationType": "multi-region",
+                "logging": {},
+                "metageneration": 2,
+                "name": "ed-test-12",
+                "owner": {},
+                "projectNumber": 99988877766,
+                "retentionPolicy": {},
+                "selfLink": "https://www.googleapis.com/storage/v1/b/bucket-test-1",
+                "storageClass": "STANDARD",
+                "timeCreated": "2023-03-29T13:12:35.580Z",
+                "updated": "2023-03-29T14:03:08.571Z",
+                "versioning": {},
+                "website": {}
+            },
+            "discoveryDocumentUri": "https://www.googleapis.com/discovery/v1/apis/storage/v1/rest",
+            "discoveryName": "Bucket",
+            "location": "us",
+            "parent": "//cloudresourcemanager.googleapis.com/projects/99988877766",
+            "version": "v1"
+        },
+        "updateTime": "2023-03-29T14:03:08.571Z"
+    },
+    "priorAssetState": "PRESENT",
+    "window": {
+        "startTime": "2023-03-29T14:03:24.917Z"
+    }
+}
